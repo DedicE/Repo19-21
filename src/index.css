@@ -61,7 +61,7 @@ textarea{
 #shift{
     width: 24.3%;
     display: -ms-inline-flexbox;
-    height: 7%;
+    height: 10%;
     background-color: black;
     color: white;
     font-size: 2.2em;
@@ -85,7 +85,7 @@ textarea{
 }
 #submit{
     width: 24.4%;
-    height: 7%;
+    height: 11%;
     display: -ms-inline-flexbox;
     background-color: black;
     color: white;
