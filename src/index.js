@@ -31,7 +31,7 @@ var text = item.innerHTML;
     }
     if(text === "Space" || text === "SPACE"){
      return textarea.innerHTML += " ";
-    }else if(text === "Backspace" || text === "BACKSPACE"){
+    }else if(text === "Back<br>space" || text === "BACKSPACE"){
         return textarea.innerHTML = textarea.innerHTML.substring(0,textarea.innerHTML.length - 1);    
     }else if(text === "Caps Lock" || text === "CAPS LOCK"){
         textarea.innerHTML += "";
