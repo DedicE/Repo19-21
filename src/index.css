@@ -7,14 +7,14 @@ h2 {
     text-transform: uppercase;
     width: 500px;
     text-align: center;
-    color: #b9dfff;
+    color: #07385f;
     color: #fff;
     font-family: "Zefani";
     font-family: 'Abril Fatface';
     margin: 3rem auto;
     position: relative;
     padding: 2rem 0 9rem;
-    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228dff,0 0 35px #228dff,0 0 40px #228dff;
+    text-shadow: 0 0 5px rgb(141, 143, 175),0 0 10px rgb(109, 70, 199),0 0 15px #fff,0 0 20px #228dff,0 0 35px #228dff,0 0 40px #228dff;
 }
 
 .scroll-more {
@@ -37,11 +37,12 @@ h2 {
 }
 
 html body{
+    display: block;
     height: 100%;
     width: 100%;
     margin: 0;
     position: absolute;
-    background: radial-gradient(circle at margin-top,#1a1546,#040411 40%);
+    background: radial-gradient(circle at center,#1a1546,#040411 60%);
   perspective: 1000px;
 }
 
