@@ -4,7 +4,10 @@ html body{
     margin: 0;
     position: fixed;
 }
-
+h2{
+    display: flex;
+    justify-content: center;
+}
 textarea{
     width: 71%;
     height: 47%;
